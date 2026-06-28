@@ -1,4 +1,5 @@
-"""i = 8
+#1st code
+i = 8
 
 while(i>7):
     print(i)
@@ -17,6 +18,7 @@ for i in range(100):
 for i in range(100):
     pass #The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, 
     #but you avoid getting an error when empty code is not allowed.
+#2nd code
 b = 2
 for i in range(1,11):
     print(f"{b} * {i} = {b*i}") #prints the multiplication table of 2
@@ -26,13 +28,14 @@ for name in l:
     if name.startswith("S"):
         print("Hello " + name) #prints the names that start with S
 
+#3rd code
 b = 2
 i = 1
 while i <= 10:
     print(f"{b} * {i} = {b*i}") #prints the multiplication table of 2
     i += 1        
 
-
+#4th code
 n = int(input("Enter the number: "))
 i = 1
 sum = 0
@@ -43,6 +46,7 @@ while i <= n:
 
 print(f"The sum of numbers from 1 to {n} is {sum}")
 
+#5th code
 n = int(input("Enter the number: "))
 product = 1
 for i in range (1, n+1):
@@ -50,6 +54,7 @@ for i in range (1, n+1):
 
 print(f"The factorial of {n} is {product}")
 
+#6th code
 n = int(input("Enter the number: "))
 for i in range(1, n+1):
 
@@ -57,13 +62,15 @@ for i in range(1, n+1):
     print("*" * (2*i-1), end = "")
     print() #prints a new line after each row
 
+#7th code
 n = int(input("Enter the number: "))
 for i in range(1, n+1):
 
     # print(" " * (n-i), end ="")
     print("*" * (i), end = "")
     print() #prints a new line after each row
-    
+
+#8th code
 n = int(input("Enter the number: "))
 for i in range(1, n+1):
     if(i == 1 or i == n):
@@ -74,6 +81,7 @@ for i in range(1, n+1):
         print("*", end = "")
     print() #prints a new line after each row
 
+#9th code
 n = int(input("Enter the number: "))
 for i in range(10, 0, -1):
     print(f"{n} * {i} = {n*i}") #prints the multiplication table of n in reverse order
@@ -83,4 +91,3 @@ for i in range(10, 0, -1):
 n = int(input("Enter the number: "))
 for i in range(1, 11):
     print(f"{n} * {11- i} = {n*(11-i)}") #prints the multiplication table of n in reverse order
-"""
